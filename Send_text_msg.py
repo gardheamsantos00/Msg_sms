@@ -11,6 +11,6 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
     to="+5543998625629", 
     from_="+1215-703-2881",
-    body="Ola , esse eh um teste de sms!")
+    body="HAU HAU HAU!")
 
 print(message.sid)
